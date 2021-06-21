@@ -1,120 +1,41 @@
-﻿
+﻿@model ViewModels.Models.DashboardViewModel
 @{
     ViewData["Title"] = "Index";
 }
 
 <div class="hero-section">
     <div class="hero-slider owl-carousel">
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//1.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-            @*@Html.ActionLink("Take a look at my Portfolio","Portfolio","Home")*@
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//2.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//3.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//4.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//5.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//6.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//7.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
+        
+        @foreach (var item in Model.Carousels.Where(x=>x.SliderNo==1))
+        {
+            <div class="hero-item portfolio-item set-bg" data-setbg="@item.ThumbnailPath">
+                <a href="Portfolio" class="hero-link">
+                    <h2>Take a look at my Portfolio</h2>
+                </a>
+            </div>
+        }
+
+        
     </div>
     <div class="hero-slider owl-carousel">
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//8.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//9.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//10.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//11.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//12.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//13.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//14.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
+        @foreach (var item in Model.Carousels.Where(x => x.SliderNo == 2))
+         {
+            <div class="hero-item portfolio-item set-bg" data-setbg="@item.ThumbnailPath">
+                <a href="Portfolio" class="hero-link">
+                    <h2>Take a look at my Portfolio</h2>
+                </a>
+            </div>
+         }
     </div>
     <div class="hero-slider owl-carousel">
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//15.jpg">
+        @foreach (var item in Model.Carousels.Where(x => x.SliderNo == 3))
+        {
+        <div class="hero-item portfolio-item set-bg" data-setbg="@item.ThumbnailPath">
             <a href="Portfolio" class="hero-link">
                 <h2>Take a look at my Portfolio</h2>
             </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//16.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//17.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//18.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//19.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//20.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
-        <div class="hero-item portfolio-item set-bg" data-setbg="/img/portfolio//21.jpg">
-            <a href="Portfolio" class="hero-link">
-                <h2>Take a look at my Portfolio</h2>
-            </a>
-        </div>
+        </div>}
+        
     </div>
     <div class="hero-social-links">
         <a href="#"><i class="fa fa-pinterest"></i></a>
@@ -132,8 +53,8 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 p-0">
                     <div class="intro-text">
-                        <h2>My name is Sam. I’m a photographer</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis commodo viverra maecenas. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <h2>@Model.activeArtist.Headline</h2>
+                        <p>@Model.activeArtist.Description</p>
                         <a href="/Home/Portfolio" class="sp-link">Take a look @@my portfolio</a>
                     </div>
                 </div>

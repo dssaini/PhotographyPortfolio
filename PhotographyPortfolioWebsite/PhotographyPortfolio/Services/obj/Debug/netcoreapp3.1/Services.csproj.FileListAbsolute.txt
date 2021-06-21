@@ -1,0 +1,14 @@
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Services.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Services.pdb
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Core.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Core.pdb
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\bin\Debug\netcoreapp3.1\Newtonsoft.Json.xml
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Services\obj\Debug\netcoreapp3.1\Services.pdb

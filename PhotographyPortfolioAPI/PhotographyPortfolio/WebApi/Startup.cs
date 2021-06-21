@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Services;
+using Services.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,6 +55,7 @@ namespace WebApi
             services.AddScoped<IOurServices, OurServices>();
             services.AddScoped<IPortfolioService, PortfolioServices>();
             services.AddScoped<ItagServices, TagServices>();
+            services.AddScoped<IDashboardService, DashboardService>();
 
         }
 

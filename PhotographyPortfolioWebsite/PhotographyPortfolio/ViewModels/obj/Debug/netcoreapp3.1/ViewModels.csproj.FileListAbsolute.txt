@@ -1,0 +1,9 @@
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.deps.json
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.pdb
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csprojAssemblyReference.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfoInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfo.cs
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CoreCompileInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb

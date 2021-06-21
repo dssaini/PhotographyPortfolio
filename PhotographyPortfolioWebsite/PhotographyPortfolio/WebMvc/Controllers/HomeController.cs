@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Core.Helpers;
+using Microsoft.AspNetCore.Mvc;
+using Services.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewModels.Models;
 
 namespace WebMvc.Controllers
 {
@@ -10,14 +13,26 @@ namespace WebMvc.Controllers
     
     public class HomeController : Controller
     {
+        private readonly IWebApiService _webApiService;
+        public HomeController(IWebApiService webApiService)
+        {
+            _webApiService = webApiService;
+        }
         //[Route("Home/Index")]
         //[Route("Home")]
         [Route("")]
         [Route("Home")]
         //[Route("Home/Index")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            DashboardViewModel model = new DashboardViewModel();
+            var getDashoard = await _webApiService.GetAsync<DashboardViewModel>
+                (ApiConstants.WebConstants.getDashboard);
+            if (getDashoard.StatusCode == 200)
+            {
+                return View(getDashoard);
+            }
+            return View(model);
         }
         [Route("About")]
         public IActionResult AboutTheArtist()

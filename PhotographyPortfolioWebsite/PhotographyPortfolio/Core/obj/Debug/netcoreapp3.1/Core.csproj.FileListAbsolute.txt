@@ -1,0 +1,9 @@
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\LiveProjects\PhotographyPortfolio-main (2)\PhotographyPortfolio-main\PhotographyPortfolioWebsite\PhotographyPortfolio\Core\obj\Debug\netcoreapp3.1\Core.pdb
